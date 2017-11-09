@@ -5,9 +5,6 @@ html {
 a {
   color: white;
 }
-li {
-  list-style-type: none;
-}
 h1 {
   font-size: 70px;
   font-weight: bold;
@@ -22,34 +19,35 @@ h3 {
   font-size: 23px;
   font-weight: bold;
 }
-.header {
-  color: white;
-  list-style-type: none
-  margin-bottom: 50px;
-  font-size: 18px;
-}
-
-.header-background {
-  background-image: url("background.png");
-  background-color: transparent;
+li {
+  list-style-type: none;
 }
 p {
   font-size: 14px;
 }
+.header {
+  color: white;
+  list-style-type: none
+  font-size: 18px;
+}
+.header-background {
+  background-image: url("background.png");
+  background-color: transparent;
+}
 .footer {
   color: white;
   font-size: 11px;
-}
-.footer ul {
-  text-align: left;
-  width; 100%;
-  background-color: dimgray;
 }
 .footer li {
   color: white;
   font-size: 11px;
   display: inline;
   margin: 1px;
+  background-color: dimgray;
+}
+.footer ul {
+  text-align: left;
+  width; 100%;
   background-color: dimgray;
 }
 .location {
